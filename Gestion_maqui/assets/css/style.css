@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général du corps de la page */
+body.accueil {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Conteneur principal */
+.container.accueil {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Titre principal */
+h1.accueil {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Menu de navigation */
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.menu li {
+    margin: 15px 0;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+ul.menu li a:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1.accueil {
+        font-size: 2rem;
+    }
+
+    ul.menu li a {
+        padding: 8px 16px;
+    }
+}

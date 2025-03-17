@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "commandes"
+		},
+		{
+			"path": "depenses"
+		},
+		{
+			"path": "mouvements"
+		},
+		{
+			"path": "serveuses"
+		}
+	]
+}

@@ -1,0 +1,108 @@
+/* styles.css */
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px 0; /* Réduire le padding pour diminuer la hauteur */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.5rem; /* Réduire la taille du titre */
+    margin-bottom: 10px; /* Espace sous le titre */
+}
+
+header .menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espace entre les boutons */
+}
+
+/* Style des boutons du menu */
+header .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px; /* Ajuster la taille des boutons */
+    background-color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem; /* Taille de la police des boutons */
+    display: inline-block; /* Pour permettre un meilleur contrôle des dimensions */
+    min-width: 120px; /* Largeur minimale des boutons */
+    text-align: center; /* Centrer le texte dans les boutons */
+}
+
+header .menu li a:hover {
+    background-color: #2980b9; /* Couleur au survol */
+}
+
+/* Style du contenu principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+.btn-modifier, .btn-supprimer {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    margin: 0 5px;
+}
+
+.btn-modifier {
+    background-color: #3498db; /* Bleu pour Modifier */
+}
+
+.btn-supprimer {
+    background-color: #e74c3c; /* Rouge pour Supprimer */
+}
+
+.btn-modifier:hover, .btn-supprimer:hover {
+    opacity: 0.8;
+}
